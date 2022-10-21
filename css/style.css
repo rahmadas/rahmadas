@@ -159,3 +159,59 @@ ul li a:hover{
     cursor: pointer;
 }
 
+/* About Me */
+.about h1 {
+    padding-left: 500px;
+}
+
+.about .cardAbout {
+    padding-left: 460px;
+}
+
+.pAbout {
+    padding-top: 17px;
+}
+
+/* Education */
+.education h1 {
+    padding-left: 500px;
+}
+
+.education img {
+    padding-left: 110px;
+    width: 210px;
+}
+
+/* Keahlian */
+.skills h1 {
+    padding-left: 500px;
+}
+
+.skills .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+
+}
+
+.skills .box-container .box{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.skills .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.skills .box-container .box:hover img{
+    transform: scale(1.2);
+}
